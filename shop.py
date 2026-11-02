@@ -10,3 +10,4 @@ def total(prices):
     return sum(prices)# wip 1
 # wip 2
 # A
+# A
