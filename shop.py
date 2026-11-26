@@ -28,3 +28,6 @@ def search_by_name(products, text):
 
 def format_price(price):
     return f"{price:,} Toman"
+
+def list_names(products):
+    return [p.name for p in products]
