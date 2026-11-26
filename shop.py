@@ -30,4 +30,5 @@ def format_price(price):
     return f"{price:,} Toman"
 
 def list_names(products):
+    percent = min(percent,100)
     return [p.name for p in products]
