@@ -26,3 +26,5 @@ def apply_coupon(price):
 def search_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
 
+def format_price(price):
+    return f"{price:,} Toman"
