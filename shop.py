@@ -15,6 +15,7 @@ def total(prices):
 # A
 
 def apply_discount(price, percent):
+    percent = max(min(percent,100),0)
     return price * (100 - percent) / 100
 
 
@@ -32,3 +33,6 @@ def format_price(price):
 def list_names(products):
     percent = min(percent,100)
     return [p.name for p in products]
+
+def count_products(products):
+    return len(products)
