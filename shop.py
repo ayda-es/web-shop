@@ -15,6 +15,7 @@ def total(prices):
 # A
 
 def apply_discount(price, percent):
+    percent = max(min(percent,100),0)
     return price * (100 - percent) / 100
 
 
